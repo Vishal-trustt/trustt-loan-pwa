@@ -11,7 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.MuiOutlinedInput-root{
+  border-radius: 10px !important;
+}
+a{
+  color:#0096C5 !important;
+  font-weight: bold ;
 
+}
+button{
+  text-transform: none;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
